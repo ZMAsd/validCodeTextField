@@ -16,6 +16,7 @@
 		84628B95251B216F000019D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84628B94251B216F000019D0 /* main.m */; };
 		84628B9F251B216F000019D0 /* CodeTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84628B9E251B216F000019D0 /* CodeTextFieldTests.m */; };
 		84628BAA251B216F000019D0 /* CodeTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84628BA9251B216F000019D0 /* CodeTextFieldUITests.m */; };
+		84628BB9251B22BA000019D0 /* ZMValideCodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84628BB7251B22BA000019D0 /* ZMValideCodeTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		84628BA5251B216F000019D0 /* CodeTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84628BA9251B216F000019D0 /* CodeTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeTextFieldUITests.m; sourceTree = "<group>"; };
 		84628BAB251B216F000019D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84628BB7251B22BA000019D0 /* ZMValideCodeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMValideCodeTextField.m; sourceTree = "<group>"; };
+		84628BB8251B22BA000019D0 /* ZMValideCodeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMValideCodeTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				84628B86251B216A000019D0 /* SceneDelegate.m */,
 				84628B88251B216A000019D0 /* ViewController.h */,
 				84628B89251B216A000019D0 /* ViewController.m */,
+				84628BB8251B22BA000019D0 /* ZMValideCodeTextField.h */,
+				84628BB7251B22BA000019D0 /* ZMValideCodeTextField.m */,
 				84628B8B251B216A000019D0 /* Main.storyboard */,
 				84628B8E251B216F000019D0 /* Assets.xcassets */,
 				84628B90251B216F000019D0 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84628B8A251B216A000019D0 /* ViewController.m in Sources */,
+				84628BB9251B22BA000019D0 /* ZMValideCodeTextField.m in Sources */,
 				84628B84251B216A000019D0 /* AppDelegate.m in Sources */,
 				84628B95251B216F000019D0 /* main.m in Sources */,
 				84628B87251B216A000019D0 /* SceneDelegate.m in Sources */,
@@ -440,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TY5UTBY4D;
 				INFOPLIST_FILE = CodeTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TY5UTBY4D;
 				INFOPLIST_FILE = CodeTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
